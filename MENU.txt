@@ -1,0 +1,40 @@
+ek new database bana
+
+query 1 
+create table menu2(Item_Code int primary key,Item_Name char(30) not null,Prize int default 0,Time int,Type char(20) not null);
+
+query 2 (agar kuch change krna hai to yahi pr karle)
+insert into menu2 values(1,'Samosa',20,2,'veg'),
+(2,'Veg Pakora',50,2,'veg'),
+(3,'Soup',30,2,'veg'),
+(4,'Paneer Tikka',60,2,'veg'),
+(5,'Pav Bhaji',100,5,'veg'),
+(6,'Special Aloo',2000,15,'veg'),
+(7,'Dal Tadka',100,10,'veg'),
+(8,'Gravy Paneer',120,10,'veg'),
+(9,'Aloo ka Saag',80,10,'veg'),
+(10,'Palak Paneer',80,10,'veg'),
+(11,'Masala Dosa',100,10,'veg'),
+(12,'Sambar',100,10,'veg'),
+(13,'Steam Rice',60,5,'veg'),
+(14,'Naan',20,2,'veg'),
+(15,'Roti',10,2,'veg'),
+(16,'Chicken Curry',120,10,'non-veg'),
+(17,'Chicken Biryani',120,10,'non-veg'),
+(18,'Chicken Pizza',120,10,'non-veg'),
+(19,'Chicken Korma',120,10,'non-veg'),
+(20,'Karahi Chicken',120,10,'non-veg'),
+(21,'Keema Curry',120,10,'non-veg'),
+(22,'Lamb Curry',120,10,'non-veg'),
+(23,'Lamb Biryani',120,10,'non-veg'),
+(24,'Fish Curry',120,10,'non-veg'),
+(25,'Kheer',50,5,'dessert'),
+(26,'Halwa',60,5,'dessert'),
+(27,'Gulab Jamun',50,5,'dessert'),
+(28,'Mango Kulfi',30,5,'dessert'),
+(29,'Dhai Bhalla Chat',50,5,'dessert'),
+(30,'Mango Cheesecake',100,5,'dessert'),
+(31,'Soft Drink',30,5,'drinks'),
+(32,'Limbu Pani',30,5,'drinks'),
+(33,'Lassi',30,5,'drinks'),
+(34,'Chai',20,5,'drinks');
