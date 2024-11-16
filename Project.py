@@ -9,6 +9,7 @@ cursor=mycon.cursor()
 cursor.execute('select *from menu2;')
 menu=cursor.fetchall()
 
+# comment
 self=tk.Tk()
 self.title('XX RESTAURANT')
 self.config(bg='white')
