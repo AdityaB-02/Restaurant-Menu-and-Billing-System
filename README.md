@@ -1,2 +1,1 @@
-This is Restaurant Menu Program. 
-Another Change.
+This is Restaurant Menu Program using python with Tkinter for GUI and SQL for Database.
