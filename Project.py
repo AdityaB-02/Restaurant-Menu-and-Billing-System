@@ -4,7 +4,8 @@ import mysql.connector as sql, time as xtime
 
 #SQL CONNECTIVITY#
 import mysql.connector as sql
-mycon=sql.connect(host='localhost',user='root',passwd="aditya",database='ab02')#change
+# Change to your own user, password and Database name. 
+mycon=sql.connect(host='localhost',user='root',passwd="aditya",database='ab02') 
 cursor=mycon.cursor()
 cursor.execute('select *from menu2;')
 menu=cursor.fetchall()
